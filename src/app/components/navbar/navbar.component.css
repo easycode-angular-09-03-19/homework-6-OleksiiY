@@ -1,0 +1,9 @@
+.nav-main{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.items-list{
+  flex-direction: row;
+  justify-content: start;
+}

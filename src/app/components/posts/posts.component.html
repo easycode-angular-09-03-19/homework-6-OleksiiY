@@ -1,0 +1,17 @@
+<div class="btn btn-primary mt-1 ml-1 mb-1 btn-back" routerLink="/">Back</div>
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th scope="col">id#</th>
+    <th scope="col">Body</th>
+    <th scope="col">Title</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let post of posts">
+    <th scope="row">{{ post.id }}</th>
+    <td>{{ post.body }}</td>
+    <td>{{ post.title }}</td>
+  </tr>
+  </tbody>
+</table>
